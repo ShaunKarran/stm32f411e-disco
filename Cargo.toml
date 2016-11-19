@@ -1,0 +1,17 @@
+[package]
+build = "build.rs"
+name = "board"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.1.4"
+r0 = "0.1.0"
+volatile-register = "0.1.2"
+stm32f411xx-memory-map = { git = "https://github.com/NathanielPerkins/stm32f411xx-memory-map" }
+
+[dependencies.compiler-builtins-snapshot]
+features = ["memcpy"]
+version = "0.0.20161008"
+
+[profile.release]
+lto = true
