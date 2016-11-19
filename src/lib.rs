@@ -1,4 +1,4 @@
-//! A crate to hack the $DEVELOPMENT_BOARD!
+//! A crate to hack the STM32F411E-DISCO board!
 
 #![feature(asm)]
 #![feature(core_intrinsics)]
@@ -13,6 +13,8 @@ extern crate compiler_builtins_snapshot;
 extern crate cortex_m;
 extern crate r0;
 extern crate volatile_register;
+
+pub extern crate stm32f411xx_memory_map as peripheral;
 
 mod lang_items;
 

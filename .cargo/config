@@ -1,5 +1,5 @@
 [target.thumbv7em-none-eabihf]
 rustflags = [
-  "-C", "link-arg=-Tstm32f411.ld",
+  "-C", "link-arg=-Tstm32f411ve.ld",
   "-C", "link-arg=-nostartfiles",
 ]

@@ -1,6 +1,6 @@
 [package]
 build = "build.rs"
-name = "board"
+name = "stm32f411e-disco"
 version = "0.1.0"
 
 [dependencies]

@@ -1,7 +1,7 @@
-# stm32f4-rust-blinky
+# stm32f411e-disco
 
-> A basic blinky program for the STM32F4 Discovery board written in rust. Based on
-> [this template](https://github.com/japaric/cortex-m-template).
+> A library to use with the STM32F411E-DISCO board. Created from
+> [this template](https://github.com/japaric/cortex-m-template) by [japaric](https://github.com/japaric).
 
 # License
 

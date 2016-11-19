@@ -1,10 +1,9 @@
 #![no_main]
 #![no_std]
 
-extern crate board;
-extern crate stm32f411xx_memory_map;
+extern crate stm32f411e_disco;
 
-use stm32f411xx_memory_map as peripheral;
+use stm32f411e_disco::peripheral;
 
 #[no_mangle]
 pub fn main() -> ! {

@@ -3,7 +3,7 @@
 #![no_std]
 
 #[macro_use]
-extern crate board;
+extern crate stm32f411e_disco;
 
 use core::ptr;
 
