@@ -21,6 +21,7 @@ mod lang_items;
 pub mod exception;
 pub mod interrupt;
 pub mod led;
+pub mod button;
 
 // "Pre `main`" initialization routine
 fn init() {}
