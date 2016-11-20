@@ -1,7 +1,8 @@
 # stm32f411e-disco
 
 > A library to use with the STM32F411E-DISCO board. Created from
-> [this template](https://github.com/japaric/cortex-m-template) by [japaric](https://github.com/japaric).
+> [this template](https://github.com/japaric/cortex-m-template) and heavily based on the
+> [f3 crate](https://github.com/japaric/f3) by [japaric](https://github.com/japaric).
 
 # Running the examples
 
